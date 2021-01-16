@@ -28,7 +28,7 @@ Client.on("ready", () => {
 //Bienvenue
 Client.on("guildMemberAdd", member => {
     console.log("Un nouveau membre est arrivé");
-    member.guild.channels.cache.find(channel => channel.id === "793530502858539039").send("Bienvenue à <@ __" + member.displayName + ">__sur le serveur de la **DDA**. Grâce à toi ont est *" + member.guild.memberCount + "* sur le serveur");
+    member.guild.channels.cache.find(channel => channel.id === "793530502858539039").send("Bienvenue à <@" + member.displayName + ">" + "sur le serveur de la **DDA**. Grâce à toi ont est *" + member.guild.memberCount + "* sur le serveur");
     member.roles.add("785935217629986867").then(mbr => {
         console.log("Rôle donnéé")
     }).catch(() => {
