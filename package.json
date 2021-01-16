@@ -1,0 +1,29 @@
+{
+  "name": "dda",
+  "version": "1.0.0",
+  "description": "ddafr",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.7",
+    "ytdl-core": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atsuko-DDA/botaddrfsdidos.git"
+  },
+  "keywords": [
+    "dda"
+  ],
+  "author": "Atsuko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atsuko-DDA/botaddrfsdidos/issues"
+  },
+  "homepage": "https://github.com/Atsuko-DDA/botaddrfsdidos#readme"
+}
